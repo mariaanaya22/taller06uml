@@ -45,7 +45,7 @@ class Matrimonio {
 let persona1 = new Persona("Juan", "Pérez", 30, "masculino", "Calle A" ,"juez");
 let persona2 = new Persona("María", "Gómez", 28, "femenino", "Calle B" ,"testigo1");
 let autoridadMunicipal = new Persona("Luisa", "Gómez", 28, "femenino", "Calle C" ,"notaria");
-let testigo = new Persona("Cata", "Anaya", 30, "masculino", "Calle 30" , "testigo");
+let testigo2 = new Persona("Cata", "Anaya", 30, "masculino", "Calle 30" , "testigo");
 
 let matrimonio = new Matrimonio("2024-08-06", "Iglesia", autoridadMunicipal);
 matrimonio.agregarContrayente(persona1);
